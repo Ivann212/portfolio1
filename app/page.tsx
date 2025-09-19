@@ -21,7 +21,7 @@ export default function Home() {
           Je suis un développeur web passionné spécialisé en Next.js, Tailwind CSS et React.
         </p>
         <a
-          href="/cv.pdf" // <-- place ton fichier CV.pdf dans /public
+          href="./images/cv.pdf" // <-- place ton fichier CV.pdf dans /public
           download
           className="px-6 py-3 rounded-lg bg-foreground text-background font-semibold hover:opacity-80"
         >
@@ -53,7 +53,8 @@ export default function Home() {
           {/* projet 2 */}
           <div className="p-6 bg-white shadow rounded-lg hover:shadow-lg transition">
             <h3 className="text-xl font-semibold mb-2">Projet 2</h3>
-            <p className="text-gray-600 mb-4">Une petite description rapide.</p>
+            <img src="../images/KnowledgeA_1.webp"></img>
+            <p className="text-gray-600 mb-4">Un site e-learning, propose différentes formations.</p>
             <div className="flex gap-4">
               <a href="https://github.com/ton-projet" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
               <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a>

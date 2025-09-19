@@ -13,7 +13,7 @@ export default function ProjetsPage() {
       >
         Mes projets
       </motion.h1>
-      
+      <p>Les différents projets sont en cours d'ajout 🌸​</p>
     </main>
   );
 }
