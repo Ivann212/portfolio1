@@ -70,17 +70,17 @@ export default function Home() {
           </div>
           
         </div>
-        <div className="my-8 bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center py-12">
+        <div className="my-8 flex items-center justify-center py-12">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <Link href="/projets">
-              <button className="px-8 py-4 bg-white text-blue-600 font-bold rounded-lg shadow-lg hover:bg-gray-100 transition">
-                Voir mes projets
-              </button>
-            </Link>
+          
+            <a href="/projets" className="px-6 py-3 rounded-lg bg-foreground text-background font-semibold hover:opacity-80">
+              Voir mes autres projets
+            </a>
+            
           </motion.div>
         </div>
       </section>
