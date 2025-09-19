@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 
 
@@ -36,10 +37,10 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          Mes Projets
+          Quelques projets
         </motion.h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Exemple projet */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-8">
+          {/* projet 1 */}
           <div className="p-6 bg-white shadow rounded-lg hover:shadow-lg transition">
             <h3 className="text-xl font-semibold mb-2">Projet 1</h3>
             <p className="text-gray-600 mb-4">Une petite description rapide.</p>
@@ -48,7 +49,38 @@ export default function Home() {
               <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a>
             </div>
           </div>
-          {/* Dupliques ce bloc pour chaque projet */}
+          {/* projet 2 */}
+          <div className="p-6 bg-white shadow rounded-lg hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold mb-2">Projet 2</h3>
+            <p className="text-gray-600 mb-4">Une petite description rapide.</p>
+            <div className="flex gap-4">
+              <a href="https://github.com/ton-projet" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
+              <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a>
+            </div>
+          </div>
+          {/* projet 3 */}
+          <div className="p-6 bg-white shadow rounded-lg hover:shadow-lg transition">
+            <h3 className="text-xl font-semibold mb-2">Projet 3</h3>
+            <p className="text-gray-600 mb-4">Une petite description rapide.</p>
+            <div className="flex gap-4">
+              <a href="https://github.com/ton-projet" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
+              <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a>
+            </div>
+          </div>
+          
+        </div>
+        <div className="my-8 bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center justify-center py-12">
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+          >
+            <Link href="/projets">
+              <button className="px-8 py-4 bg-white text-blue-600 font-bold rounded-lg shadow-lg hover:bg-gray-100 transition">
+                Voir mes projets
+              </button>
+            </Link>
+          </motion.div>
         </div>
       </section>
 
