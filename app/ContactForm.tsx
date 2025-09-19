@@ -13,6 +13,7 @@ export default function ContactForm() {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm<FormData>();
 
   const onSubmit = (data: FormData) => {
@@ -22,7 +23,8 @@ export default function ContactForm() {
 
   return (
     <form
-      onSubmit={handleSubmit(onSubmit)}
+      action="https://formspree.io/f/mrbanqdv"
+      method="POST"
       className="max-w-xl mx-auto space-y-4 bg-white p-6 rounded-lg shadow"
     >
       {/* Nom */}

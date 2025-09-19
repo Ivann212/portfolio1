@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^3.0.0",
     "framer-motion": "^12.23.15",
     "next": "15.5.3",
     "react": "19.1.0",

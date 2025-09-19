@@ -43,7 +43,8 @@ export default function Home() {
           {/* projet 1 */}
           <div className="p-6 bg-white shadow rounded-lg hover:shadow-lg transition">
             <h3 className="text-xl font-semibold mb-2">Projet 1</h3>
-            <p className="text-gray-600 mb-4">Une petite description rapide.</p>
+            <img src="../images/JWE.webp"></img>
+            <p className="text-gray-600 mb-4">Un projets sur le jeux de gestion Jurassic World Evolution, le but est de créer un enclos entre dinosaures compatibles.</p>
             <div className="flex gap-4">
               <a href="https://github.com/ton-projet" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
               <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a>
@@ -95,7 +96,7 @@ export default function Home() {
           Contact
         </motion.h2>
         {/* <ContactForm /> */}
-        <div className="flex justify-center gap-6 mt-6">
+        <div className="flex justify-center gap-6 my-6">
           <a href="/contact" className="hover:text-blue-500">Me contacter</a>
           <a href="https://github.com/Ivann212?tab=repositories" target="_blank" className="hover:text-blue-500">GitHub</a>
           <a href="https://linkedin.com/in/ton-linkedin" target="_blank" className="hover:text-blue-500">LinkedIn</a>
