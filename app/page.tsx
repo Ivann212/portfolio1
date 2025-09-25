@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="space-y-32">
+    <div className="space-y-32 pt-25">
       {/* Section CV */}
       <section id="cv" className="text-center">
         <motion.h2 
@@ -56,7 +56,7 @@ export default function Home() {
             <img className="rounded-lg" src="../images/KnowledgeA_1.webp"></img>
             <p className="text-gray-600 mb-4">Un site e-learning, proposant différentes formations.</p>
             <div className="flex gap-4">
-              <a href="https://github.com/ton-projet" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
+              <a href="https://github.com/Ivann212/Knowledge" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
               <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a>
             </div>
           </div>
