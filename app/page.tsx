@@ -18,7 +18,7 @@ export default function Home() {
           Mon CV
         </motion.h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">
-          Je suis un développeur web passionné spécialisé en Next.js, Tailwind CSS et React.
+          Je m’appelle Ivann, développeur full stack passionné. Au cours de mon cursus, j’ai étudié et pratiqué différentes technologies telles que JavaScript, Python, PHP, TypeScript (avec Vue.js), MySQL et Next.js.
         </p>
         <a
           href="./images/cv.pdf" 
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="flex justify-center gap-6 my-6">
           <a href="/contact" className="hover:text-blue-500">Me contacter</a>
           <a href="https://github.com/Ivann212?tab=repositories" target="_blank" className="hover:text-blue-500">GitHub</a>
-          <a href="https://linkedin.com/in/ton-linkedin" target="_blank" className="hover:text-blue-500">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/ivann-rambaud-864176247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" className="hover:text-blue-500">LinkedIn</a>
         </div>
       </section>
     </div>
