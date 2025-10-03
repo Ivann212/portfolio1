@@ -60,13 +60,16 @@ export default function ProjetsPage() {
       {/* Modale */}
       {selectedProjet && (
         <div className="fixed inset-0 flex items-center justify-center bg-blue-200/20 backdrop-blur-md z-50">
-          <div className="bg-white/30 backdrop-blur-md border border-white/30 shadow-lg p-6 rounded-xl max-w-3xl w-full relative">
+          <div className="bg-white/30 backdrop-blur-xl p-6 rounded-xl max-w-3xl w-full max-h-[80vh] overflow-y-auto relative">
             <button
               onClick={() => setSelectedProjet(null)}
-              className="absolute top-2 right-2 text-gray-600 hover:text-black text-xl"
+              className="absolute top-2 right-2 text-gray-600 hover:text-black 
+                        text-2xl font-bold cursor-pointer transition transform hover:scale-110"
+              aria-label="Fermer la modale"
             >
               ✕
             </button>
+
             <h2 className="text-2xl font-bold mb-4">{selectedProjet.titre}</h2>
             <p className="mb-4">{selectedProjet.description}</p>
 
