@@ -47,7 +47,7 @@ export default function Home() {
             <p className="text-gray-600 mb-4">Un projets sur le jeux de gestion Jurassic World Evolution, le but est de créer un enclos entre dinosaures compatibles.</p>
             <div className="flex gap-4">
               <a href="https://github.com/Ivann212/JWE" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
-              <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a>
+              <a href="https://jwe.onrender.com/" target="_blank" className="text-blue-500 hover:underline">Démo</a>
             </div>
           </div>
           {/* projet 2 */}
@@ -63,11 +63,11 @@ export default function Home() {
           {/* projet 3 */}
           <div className="p-6 bg-white shadow rounded-lg hover:shadow-lg transition">
             <h3 className="text-xl font-semibold mb-2">Projet 3</h3>
-            <img className="rounded-lg" src="../images/stubbornA.webp"></img>
-            <p className="text-gray-600 my-4 ">Un site e-commerce avec système de resrvation et d'achat en ligne</p>
+            <img className="rounded-lg" src="../images/galerie2.webp"></img>
+            <p className="text-gray-600 my-4 ">Portfolio d'un artiste et sa galerie </p>
             <div className="flex gap-4">
-              <a href="https://github.com/Ivann212/Stubborn" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
-              <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a>
+              <a href="https://github.com/Ivann212/Artiste" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
+              <a href="https://ivann212.github.io/Artiste/" target="_blank" className="text-blue-500 hover:underline">Démo</a>
             </div>
           </div>
           

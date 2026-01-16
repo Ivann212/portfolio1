@@ -23,8 +23,22 @@ const projets: Projet[] = [
     id: 2,
     titre: "E-commerce",
     techno: "Symfony, MySQL",
-    description: "Une boutique en ligne avec paiement Stripe.",
+    description: "Une boutique en ligne avec paiement Stripe, gestion de panier",
     images: ["/images/stubbornA.webp", "/images/stubbornB.webp", "/images/stubbornP.webp"],
+  },
+  {
+    id: 3,
+    titre: "JWE",
+    techno: "Pycharm, Python, CSS, HTML",
+    description: "Une boutique en ligne avec paiement Stripe, gestion de panier",
+    images: ["/images/JWE.webp", "/images/stubbornB.webp", "/images/stubbornP.webp"],
+  },
+  {
+    id: 4,
+    titre: "Galerie",
+    techno: "Javascript, CSS, HTML",
+    description: "Galerie d'art",
+    images: ["/images/galerie2.webp", "/images/galerie1.webp", "/images/galerie3.webp"],
   },
 ];
 
@@ -32,11 +46,11 @@ export default function ProjetsPage() {
   const [selectedProjet, setSelectedProjet] = useState<Projet | null>(null);
 
   return (
-    <div className="p-6 mt-24 grid md:grid-cols-2 gap-6">
+    <div className="p-10 mt-40 grid md:grid-cols-2 gap-6">
       {projets.map((projet) => (
         <div
           key={projet.id}
-          className="bg-white rounded-xl shadow-lg p-4 hover:shadow-2xl transition"
+          className="bg-white p-6 rounded-xl shadow-lg p-4 hover:shadow-2xl transition grid justify-items-center"
         >
           {/* Image principale */}
           <Image
@@ -50,7 +64,7 @@ export default function ProjetsPage() {
           <p className="text-gray-600">{projet.techno}</p>
           <button
             onClick={() => setSelectedProjet(projet)}
-            className="mt-3 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            className="mt-3 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition "
           >
             Voir plus
           </button>
