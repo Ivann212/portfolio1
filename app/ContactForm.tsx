@@ -25,7 +25,7 @@ export default function ContactForm() {
     <form
       action="https://formspree.io/f/mrbanqdv"
       method="POST"
-      className="max-w-xl mx-auto space-y-4 bg-white p-6 rounded-lg shadow"
+      className="max-w-xl mx-auto space-y-4 bg-white p-6 rounded-lg shadow content-center "
     >
       {/* Nom */}
       <div>
@@ -68,7 +68,7 @@ export default function ContactForm() {
       {/* Bouton */}
       <button
         type="submit"
-        className="px-6 py-3 rounded bg-foreground text-background font-semibold hover:opacity-80"
+        className="mx-auto block px-6 py-3 rounded bg-foreground text-background font-semibold hover:opacity-80"
       >
         Envoyer
       </button>

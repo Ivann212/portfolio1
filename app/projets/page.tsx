@@ -35,7 +35,7 @@ const projets: Projet[] = [
   },
   {
     id: 4,
-    titre: "Galerie",
+    titre: "Galerie d'art",
     techno: "Javascript, CSS, HTML",
     description: "Galerie d'art",
     images: ["/images/galerie2.webp", "/images/galerie1.webp", "/images/galerie3.webp"],
