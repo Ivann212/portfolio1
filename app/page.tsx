@@ -21,7 +21,7 @@ export default function Home() {
           Je m’appelle Ivann, développeur full stack passionné. Au cours de mon cursus, j’ai étudié et pratiqué différentes technologies telles que JavaScript, Python, PHP, TypeScript (avec Vue.js), MySQL et Next.js.
         </p>
         <a
-          href="./images/cv.pdf" 
+          href="./images/CV.pdf" 
           download
           className="px-6 py-3 rounded-lg bg-foreground text-background font-semibold hover:opacity-80"
         >
@@ -43,11 +43,11 @@ export default function Home() {
           {/* projet 1 */}
           <div className="p-6 bg-white shadow rounded-lg hover:shadow-lg transition">
             <h3 className="text-xl font-semibold mb-2">Projet 1</h3>
-            <img className="rounded-lg" src="../images/JWE.webp"></img>
-            <p className="text-gray-600 mb-4">Un projets sur le jeux de gestion Jurassic World Evolution, le but est de créer un enclos entre dinosaures compatibles.</p>
+            <img className="rounded-lg" src="../images/Nexora.PNG"></img>
+            <p className="text-gray-600 mb-4">Site web fictif d'une entreprise web</p>
             <div className="flex gap-4">
-              <a href="https://github.com/Ivann212/JWE" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
-              <a href="https://jwe.onrender.com/" target="_blank" className="text-blue-500 hover:underline">Démo</a>
+              <a href="https://github.com/Ivann212/NexoraWeb" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
+              <a href="https://ivann212.github.io/NexoraWeb/" target="_blank" className="text-blue-500 hover:underline">Démo</a>
             </div>
           </div>
           {/* projet 2 */}
@@ -57,7 +57,7 @@ export default function Home() {
             <p className="text-gray-600 mb-4">Un site e-learning, proposant différentes formations.</p>
             <div className="flex gap-4">
               <a href="https://github.com/Ivann212/Knowledge" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
-              <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a>
+              {/* <a href="https://ton-projet-demo.com" target="_blank" className="text-blue-500 hover:underline">Démo</a> */}
             </div>
           </div>
           {/* projet 3 */}

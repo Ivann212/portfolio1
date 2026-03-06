@@ -16,16 +16,19 @@ export default function ContactForm() {
     reset,
   } = useForm<FormData>();
 
-  const onSubmit = (data: FormData) => {
-    console.log("Formulaire envoyé :", data);
-    alert("Merci pour ton message 🚀");
-  };
 
   return (
     <form
-      action="https://formspree.io/f/mrbanqdv"
-      method="POST"
-      className="max-w-xl mx-auto space-y-4 bg-white p-6 rounded-lg shadow content-center "
+      onSubmit={handleSubmit(async (data) => {
+        await fetch("https://formspree.io/f/mrbanqdv", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        });
+        alert("Merci pour votre message ! 🚀");
+        reset();
+      })}
+      className="..."
     >
       {/* Nom */}
       <div>
@@ -66,7 +69,7 @@ export default function ContactForm() {
       </div>
 
       {/* Bouton */}
-      <button
+      <button 
         type="submit"
         className="mx-auto block px-6 py-3 rounded bg-foreground text-background font-semibold hover:opacity-80"
       >

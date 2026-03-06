@@ -14,7 +14,7 @@ interface Projet {
 const projets: Projet[] = [
   {
     id: 1,
-    titre: "Knowledge",
+    titre: "site e-learning",
     techno: "Symfony, MySQL",
     description: "Un site e-learning proposant différentes formations avec solutions d'achat stripe. L'utilisateur choisit d'acheter une Formation (qui contient des leçons) ou une seule leçons. L'utilisateur aura acces uniquement à ce qu'il à acheté",
     images: ["/images/KnowledgeA_1.webp", "/images/KnowledgeF_1.webp", "/images/KnowledgeL.webp"],
@@ -30,8 +30,8 @@ const projets: Projet[] = [
     id: 3,
     titre: "JWE",
     techno: "Pycharm, Python, CSS, HTML",
-    description: "Une boutique en ligne avec paiement Stripe, gestion de panier",
-    images: ["/images/JWE.webp", "/images/stubbornB.webp", "/images/stubbornP.webp"],
+    description: "Jeux portant sur la création de parc de dinosure, le site permet d'imaginer des enclos entre dinosaures compatibles suivant : régime alimentaire, lieux de vie (terrestre, maritime...), s'ils se tolèrent entre eux.",
+    images: ["/images/JWE.webp", ],
   },
   {
     id: 4,
