@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="space-y-32 pt-25">
       {/* Section CV */}
-      <section id="cv" className="text-center">
+      <section id="cv" className="text-center ">
         <motion.h2 
           className="text-4xl font-bold mb-6 pt-6"
           initial={{ opacity: 0, y: -30 }}
@@ -20,13 +20,23 @@ export default function Home() {
         <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-6">
           Je m’appelle Ivann, développeur full stack passionné. Au cours de mon cursus, j’ai étudié et pratiqué différentes technologies telles que JavaScript, Python, PHP, TypeScript (avec Vue.js), MySQL et Next.js.
         </p>
-        <a
-          href="./images/CV.pdf" 
-          download
-          className="px-6 py-3 rounded-lg bg-foreground text-background font-semibold hover:opacity-80"
-        >
-          Télécharger mon CV
-        </a>
+        <div className="flex gap-4 justify-center">
+          <a href="./images/CV .pdf" 
+            download
+            className="px-6 py-3 rounded-lg bg-foreground text-background font-semibold hover:opacity-80"
+          >mon CV</a>
+
+          <a
+            href="./images/LM TimActive.pdf" 
+            download
+            className="px-6 py-3 rounded-lg bg-foreground text-background font-semibold hover:opacity-80"
+          >
+            Lettre de Motivation
+          </a>
+          
+        </div>
+        
+        
       </section>
 
       {/* Section Projets */}
