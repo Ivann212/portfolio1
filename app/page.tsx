@@ -43,7 +43,7 @@ export default function Home() {
           {/* projet 1 */}
           <div className="p-6 bg-white shadow rounded-lg hover:shadow-lg transition">
             <h3 className="text-xl font-semibold mb-2">Projet 1</h3>
-            <img className="rounded-lg" src="../images/Nexora.PNG"></img>
+            <img className="rounded-lg" src="../images/Nexora.png"></img>
             <p className="text-gray-600 mb-4">Site web fictif d'une entreprise web</p>
             <div className="flex gap-4">
               <a href="https://github.com/Ivann212/NexoraWeb" target="_blank" className="text-blue-500 hover:underline">GitHub</a>
